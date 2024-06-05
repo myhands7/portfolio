@@ -1,0 +1,110 @@
+﻿	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: #333;
+	}
+
+	header {
+		/* background-color: yellow; */
+		width: 100%;
+		/* height: 180px; */
+		/* margin: 0 auto 20px; */
+		padding: 0 100px;
+		/* z-index: 1000; */
+	}
+
+	header img {
+		float: left;
+		/* margin-bottom: 20px; */
+	}
+
+	/* 메뉴 시작 */
+	header nav {
+		/* background-color: pink; */
+		/* position: fixed; top: 30px; right:70px; */
+		float: right;
+		padding: 10px;
+	}
+
+	#gnb {
+		list-style-type: none;
+	}
+
+	#gnb>li {
+		display: inline;
+		margin-left: 30px;
+	}
+
+	#gnb>li>a:hover {
+		color: rgb(67, 129, 254);
+		/* border-bottom: 3px solid #c00; */
+	}
+
+	/* 메뉴 끝 */
+
+	.ptitle {
+		/* background-color: yellow; */
+		width: 100%;
+		font-size: 28px;
+		color: #666;
+		clear: both;
+		padding: 10px 99px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	aside {
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 2.7em;
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+		background: linear-gradient(0deg, #aaa, #fff);
+		border-radius: 30px;
+		border: 1px solid #ddd;
+		z-index: 101;
+	}
+
+	footer {
+		clear: both;
+		padding: 20px 70px;
+		width: 100%;
+		/* background: yellow; */
+		text-align: center;
+		line-height: 1.45em;
+		font-size: 14px;
+		z-index: 100;
+	}
+
+	.fullback {
+		background-color: #0f3f7f;
+		background-image: url(images/photo.jpg);
+		background-repeat: no-repeat;
+		background-origin: padding-box;
+		width: 100%;
+		height: 650px;
+	}
+
+	.fullback .textbox {
+		position: relative;
+		top: 50px;
+		float: right;
+		margin-right: 120px;
+		width: 500px;
+		height: 560px;
+		background-color: white;
+		/* background: linear-gradient(127deg, #ccc, #fff, #fff); */
+		/* margin: 0 auto; */
+		border-radius: 5px;
+		/* box-shadow: 8px 8px 5px #999;		 */
+	}
+	section article {
+		margin: 50px 45px; 
+		float: left; line-height: 1.75em;
+	}

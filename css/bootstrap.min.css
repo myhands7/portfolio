@@ -779,6 +779,7 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-bottom: 30px;
 }
 
 .col {
@@ -954,7 +955,7 @@ pre code {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
-        margin-bottom: 18px;
+        margin-bottom: 20px;
     }
     .col-sm-2:hover {
         transform: scale(1.08);
